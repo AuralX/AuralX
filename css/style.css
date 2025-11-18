@@ -421,7 +421,7 @@ section{
    content: '';
    position: absolute;
    top: 0; left: 0; right: 0; bottom: 0;
-   /*background: linear-gradient(rgba(13,13,13,.8), transparent, rgba(13,13,13,.8));*/
+   background: linear-gradient(rgba(13,13,13,.8), transparent, rgba(13,13,13,.8));
    transition: .2s linear;
 }
 
@@ -1120,4 +1120,5 @@ input[type="range"]{
 
 
 }
+
 
