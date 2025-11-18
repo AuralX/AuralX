@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Filter</title>
+
+    <!--  swiper css cdn link  -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css"/>
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="/css/style.css">
+     
+</head>
+<body>
+    
+<!--  header section starts  -->
+
+<header class="header">
+
+    <section class="flex">
+
+        <div class="logo">
+           <div id="menu-btn" class="fas fa-bars-staggered"></div>
+           <a href="/index.html">OTAKU</a>
+        </div>
+
+        <div class="search-form">
+           <form action="" class="search-bar">
+              <input type="search" placeholder="search anime..." id="searchBox" maxlength="100">
+              <label for="searchBox" class="fas fa-search"></label>
+           </form>
+           <a href="/filter.html" class="fas fa-filter"></a>
+        </div>
+                
+        <a href="/login.html" class="btn"><i class="fas fa-user"></i>login</a>
+
+        <div id="search-toggler" class="fas fa-search"></div>
+     
+    </section>
+
+</header>
+
+<!--  header section ends  -->
+
+<div class="side-bar">
+
+    <nav class="navbar">
+
+        <div id="close-btn"><i class="fas fa-angle-left"></i>close menu</div>
+
+        <a href="/index.html">🏠 home</a>
+        <a href="#">♨️ hot Series</a>
+        <a href="#">⚡ most popular</a>
+
+        <div class="title">all Series</div>
+
+        <div class="column">
+            <a href="#">fantacy</a>
+            <a href="#">romance</a>
+            <a href="#">adult</a>
+            <a href="#">erotic</a>
+            <a href="#">urban</a>
+            <a href="#">lust</a>
+            <a href="#">incest</a>
+            <a href="#">adultery</a>
+        </div>
+    </nav>
+
+</div>
+
+<!-- filter section starts -->
+
+<section class="filter">
+
+    <h1 class="heading">filter</h1>
+
+    <form action="">
+
+    <div class="list-container">
+
+        <div class="list">
+            <span>type</span>
+            <input type="text" readonly value="all" class="output">
+            <div class="items">
+               <div class="item">all</div>
+               <div class="item">movie</div>
+               <div class="item">TV</div>
+               <div class="item">OVAs</div>
+               <div class="item">ONAs</div>
+               <div class="item">specials</div>
+               <div class="item">music</div>
+            </div>   
+        </div>
+
+        <div class="list">
+            <span>status</span>
+            <input type="text" readonly value="all" class="output">
+            <div class="items">
+               <div class="item">all</div>
+               <div class="item">ongoing</div>
+               <div class="item">completed</div>
+               <div class="item">upcoming</div>
+            </div>   
+        </div>
+
+        <div class="list">
+            <span>sub</span>
+            <input type="text" readonly value="all" class="output">
+            <div class="items">
+               <div class="item">all</div>
+               <div class="item">SUB</div>
+               <div class="item">DUB</div>
+               <div class="item">RAW</div>
+            </div>   
+        </div>
+
+        <div class="list">
+            <span>season</span>
+            <input type="text" readonly value="all" class="output">
+            <div class="items">
+               <div class="item">all</div>
+               <div class="item">spring</div>
+               <div class="item">summer</div>
+               <div class="item">fall</div>
+               <div class="item">winter</div>
+            </div>   
+        </div>
+
+    </div>
+
+    <div class="genere">
+        <input type="checkbox" id="c1">
+        <label for="c1">action</label>
+        <input type="checkbox" id="c2">
+        <label for="c2">adventure</label>
+        <input type="checkbox" id="c3">
+        <label for="c3">cars</label>
+        <input type="checkbox" id="c4">
+        <label for="c4">comedy</label>
+        <input type="checkbox" id="c5">
+        <label for="c5">crime</label>
+        <input type="checkbox" id="c6">
+        <label for="c6">comic</label>
+        <input type="checkbox" id="c7">
+        <label for="c7">demons</label>
+        <input type="checkbox" id="c8">
+        <label for="c8">drama</label>
+        <input type="checkbox" id="c9">
+        <label for="c9">family</label>
+        <input type="checkbox" id="c10">
+        <label for="c10">fantacy</label>
+        <input type="checkbox" id="c11">
+        <label for="c11">game</label>
+        <input type="checkbox" id="c12">
+        <label for="c12">gore</label>
+        <input type="checkbox" id="c13">
+        <label for="c13">harem</label>
+        <input type="checkbox" id="c14">
+        <label for="c14">historical</label>
+        <input type="checkbox" id="c15">
+        <label for="c15">horor</label>
+        <input type="checkbox" id="c16">
+        <label for="c16">isekai</label>
+        <input type="checkbox" id="c17">
+        <label for="c17">magic</label>
+        <input type="checkbox" id="c18">
+        <label for="c18">martial</label>
+        <input type="checkbox" id="c19">
+        <label for="c19">mecha</label>
+        <input type="checkbox" id="c20">
+        <label for="c20">military</label>
+        <input type="checkbox" id="c21">
+        <label for="c21">music</label>
+        <input type="checkbox" id="c22">
+        <label for="c22">mystery</label>
+        <input type="checkbox" id="c23">
+        <label for="c23">parody</label>
+        <input type="checkbox" id="c24">
+        <label for="c24">police</label>
+        <input type="checkbox" id="c25">
+        <label for="c25">psychological</label>
+        <input type="checkbox" id="c26">
+        <label for="c26">romance</label>
+        <input type="checkbox" id="c27">
+        <label for="c27">samurai</label>
+        <input type="checkbox" id="c28">
+        <label for="c28">school</label>
+        <input type="checkbox" id="c29">
+        <label for="c29">sci-fi</label>
+        <input type="checkbox" id="c30">
+        <label for="c30">seinen</label>
+        <input type="checkbox" id="c31">
+        <label for="c31">shoujo</label>
+        <input type="checkbox" id="c32">
+        <label for="c32">shounen</label>
+        <input type="checkbox" id="c33">
+        <label for="c33">slice of life</label>
+        <input type="checkbox" id="c34">
+        <label for="c34">space</label>
+        <input type="checkbox" id="c35">
+        <label for="c35">sports</label>
+        <input type="checkbox" id="c36">
+        <label for="c36">super power</label>
+        <input type="checkbox" id="c37">
+        <label for="c37">supernatural</label>
+        <input type="checkbox" id="c38">
+        <label for="c38">thriller</label>
+        <input type="checkbox" id="c39">
+        <label for="c39">vampire</label>
+    </div>
+
+    <input type="submit" value="filter anime" class="btn">
+
+    </form>
+
+</section>
+
+<!-- filter section ends -->
+
+
+
+<!-- trending section starts -->
+
+<section class="trending">
+
+    <h1 class="heading">popular</h1>
+
+    <div class="trending-slider posts-container">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide post">
+                <a href="audiobooks/1.html">
+                    <div class="image">
+                        <img src="images/img-1.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">SUB</p>
+                    </div>
+                </a>
+                <h3><a href="audiobooks/1.html">Mommy Will Help You!</a></h3>
+            </div>
+
+            <div class="swiper-slide post">
+                <a href="audiobooks/2.html">
+                    <div class="image">
+                        <img src="images/img-2.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">SUB</p>
+                    </div>
+                </a>
+                <h3><a href="audiobooks/2.html">Dad,This Is My First Time...</a></h3>
+            </div>
+
+            <div class="swiper-slide post">
+                <a href="audiobooks/3.html">
+                    <div class="image">
+                        <img src="images/img-3.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">SUB</p>
+                    </div>
+                </a>
+                <h3><a href="audiobooks/3.html">Only boy in a family full of women</a></h3>
+            </div>
+
+            <div class="swiper-slide post">
+                <a href="audiobooks/4.html">
+                    <div class="image">
+                        <img src="images/img-4.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">SUB</p>
+                    </div>
+                </a>
+                <h3><a href="audiobooks/4.html">Love, Sex, And Everything In Between</a></h3>
+            </div>
+
+            <div class="swiper-slide post">
+                <a href="audiobooks/5.html">
+                    <div class="image">
+                        <img src="images/img-5.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">SUB</p>
+                    </div>
+                </a>
+                <h3><a href="audiobooks/5.html">I Want to F*** You</a></h3>
+            </div>
+
+            <div class="swiper-slide post">
+                <a href="audiobooks/6.html">
+                    <div class="image">
+                        <img src="images/img-6.jpg" alt="">
+                        <p class="type">TV</p>
+                        <p class="caption">SUB</p>
+                    </div>
+                </a>
+                <h3><a href="audiobooks/6.html">I have a younger sister</a></h3>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- trending section ends -->
+
+
+
+
+
+<!-- footer section starts -->
+
+<footer class="footer">
+    
+   <section>
+
+        <div class="list">
+            <h3>A-Z list</h3>
+            <p>searching order by alphabet name A to Z</p>
+            <div class="list-links">
+                <a href="#">#</a>
+                <a href="#">0-9</a>
+                <a href="#">a</a>
+                <a href="#">b</a>
+                <a href="#">c</a>
+                <a href="#">d</a>
+                <a href="#">e</a>
+                <a href="#">f</a>
+                <a href="#">g</a>
+                <a href="#">h</a>
+                <a href="#">i</a>
+                <a href="#">j</a>
+                <a href="#">k</a>
+                <a href="#">l</a>
+                <a href="#">m</a>
+                <a href="#">n</a>
+                <a href="#">o</a>
+                <a href="#">p</a>
+                <a href="#">q</a>
+                <a href="#">r</a>
+                <a href="#">s</a>
+                <a href="#">t</a>
+                <a href="#">u</a>
+                <a href="#">v</a>
+                <a href="#">w</a>
+                <a href="#">x</a>
+                <a href="#">y</a>
+                <a href="#">z</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="extra-links">
+                <a href="#">terms of use</a>
+                <a href="#">our policy</a>
+                <a href="#">feedback</a>
+                <a href="#">contact us</a>
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-youtube"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+        
+            </div>
+        </div>       
+
+        <div class="credit">copyright &copy; 2025 by<span>mr. web designer</span> | all rights reserved!</div>
+
+   </section>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+
+
+
+<!-- swiper js cdn link -->
+ <script src="js/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+ <script src="js/script.js"></script>
+
+ </body>
+ </html>
