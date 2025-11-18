@@ -709,9 +709,8 @@ body { margin:0; background:#111; color:#fff; font-family: sans-serif; padding-b
   background-color: #070606a1; border-radius: .5rem; padding: 13px; font-size: 14px; border-block: 1px solid #222; cursor:pointer;
 }
 .chapter::after {
+  margin-left: 24rem;
   content: "▶";
-  position: absolute;
-  right: 50px;
   font-size: 18px;
   color: #00ff99;
   transition: 0.3s ease;
@@ -1118,5 +1117,6 @@ input[type="range"]{
    .hero .slide .content h3{
       font-size: 3rem;
    }
+
 
 }
