@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Anime Details</title>
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="/css/style.css">
+     
+</head>
+<body>
+    
+<!--  header section starts  -->
+
+<header class="header">
+
+    <section class="flex">
+
+        <div class="logo">
+           <div id="menu-btn" class="fas fa-bars-staggered"></div>
+           <a href="/index.html">OTAKU</a>
+        </div>
+
+        <div class="search-form">
+           <form action="" class="search-bar">
+              <input type="search" placeholder="search anime..." id="searchBox" maxlength="100">
+              <label for="searchBox" class="fas fa-search"></label>
+           </form>
+           <a href="/filter.html" class="fas fa-filter"></a>
+        </div>
+                
+        <a href="/login.html" class="btn"><i class="fas fa-user"></i>login</a>
+
+        <div id="search-toggler" class="fas fa-search"></div>
+     
+    </section>
+
+</header>
+
+<!--  header section ends  -->
+
+<div class="side-bar">
+
+    <nav class="navbar">
+
+        <div id="close-btn"><i class="fas fa-angle-left"></i>close menu</div>
+
+        <a href="/index.html">🏠 home</a>
+        <a href="#">♨️ hot Series</a>
+        <a href="#">⚡ most popular</a>
+
+        <div class="title">all Series</div>
+
+        <div class="column">
+            <a href="#">fantacy</a>
+            <a href="#">romance</a>
+            <a href="#">adult</a>
+            <a href="#">erotic</a>
+            <a href="#">urban</a>
+            <a href="#">lust</a>
+            <a href="#">incest</a>
+            <a href="#">adultery</a>
+        </div>
+
+    </nav>
+    
+</div>
