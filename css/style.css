@@ -432,7 +432,7 @@ section{
 .posts-container .post .image .type{
    position: absolute;
    top: 0; left: 0;
-   background-color: var(--white);
+   background-color:#00ff99;
    color: var(--black);
    border-bottom-right-radius: .5rem;
    padding: .1rem .5rem;
@@ -1120,6 +1120,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
