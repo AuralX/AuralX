@@ -393,7 +393,6 @@ section{
 }
 
 .posts-container{
-   border-bottom: .1rem solid rgba(255, 255, 255, .2);
    display: grid;
    grid-template-columns: repeat(auto-fit, 20rem);
    gap: 2rem;
@@ -484,8 +483,9 @@ section{
 
 .latest .button{
    margin-top: 3rem;
-   margin-bottom: 1rem;
+   padding-block-end: 1.5rem;
    text-align: center;
+   border-bottom: .1rem solid rgba(255, 255, 255, .2);
 }
 
 .filter form{
@@ -957,7 +957,6 @@ input[type="range"]{
 
 
 .footer .list h3{
-   border-top: .1rem solid rgba(255, 255, 255, .2);
    color: var(--bg-color);
    font-size: 3rem;
 }
@@ -1128,6 +1127,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
