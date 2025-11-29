@@ -949,14 +949,17 @@ input[type="range"]{
 
 
 
+
 .footer{
    background-color: var(--bg-color);
 }
+
 
 .footer .list h3{
    color: var(--bg-color);
    font-size: 3rem;
 }
+
 
 .footer .list p{
    font-size: 1.4rem;
@@ -965,6 +968,7 @@ input[type="range"]{
    padding: .5rem 0;
 }
 
+
 .footer .list .list-links{
    display: flex;
    flex-wrap: wrap;
@@ -972,6 +976,7 @@ input[type="range"]{
   /* margin: 1rem 0;
    padding-top: 1rem;*/
 }
+
 
 .footer .list .list-links a{
    /*padding: .5rem 1rem;
@@ -985,6 +990,7 @@ input[type="range"]{
    background-color: var(--main-color);
    color: var(--black);
 }
+
 
 .footer .row{
    display: flex;
@@ -1120,6 +1126,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
