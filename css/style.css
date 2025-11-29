@@ -950,35 +950,35 @@ input[type="range"]{
 
 
 .footer{
-   background-color: var(--black);
+   background-color: var(--bg-color);
 }
 
 .footer .list h3{
-   color: var(--white);
+   color: var(--bg-color);
    font-size: 3rem;
 }
 
 .footer .list p{
    font-size: 1.4rem;
    line-height: 1.6;
-   color: var(--light-white);
+   color: var(--bg-color);
    padding: .5rem 0;
 }
 
 .footer .list .list-links{
    display: flex;
    flex-wrap: wrap;
-   gap: 1rem;
-   margin: 1rem 0;
-   padding-top: 1rem;
+   gap: 10rem;
+  /* margin: 1rem 0;
+   padding-top: 1rem;*/
 }
 
 .footer .list .list-links a{
-   padding: .5rem 1rem;
-   font-size: 1.8rem;
-   color: var(--light-white);
+   /*padding: .5rem 1rem;
+   font-size: 1.8rem;*/
+   color: var(--bg-color);
    background-color: var(--bg-color);
-   border-radius: .5rem;
+   border-radius: .1rem;
 }
 
 .footer .list .list-links a:hover{
@@ -1120,6 +1120,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
