@@ -78,7 +78,7 @@ section{
    margin-bottom: 2rem;
    padding-bottom: 1.5rem;
    border-bottom: .1rem solid rgba(255,255,255,.2);
-   color: var(--blue);
+   color: var(--Capri);
 }
 
 .header{
@@ -1128,6 +1128,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
