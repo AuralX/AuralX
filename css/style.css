@@ -12,6 +12,7 @@
    --white:#fff;
    --light-white:#aaa;
    --blue:#007aff;
+   --Capri:#00bbff;
 }
 
 *{
@@ -1127,6 +1128,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
