@@ -285,7 +285,7 @@ section{
 }
 
 .hero .slide .content{
-   min-height: 40vh; 
+   min-height: 45vh; 
    display: flex;
    align-items: end;
 }
@@ -1131,6 +1131,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
