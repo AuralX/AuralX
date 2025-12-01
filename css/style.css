@@ -615,10 +615,10 @@ section{
 }
 
 .anime-details .row .image img{
-   height: 37rem;
+   height: 30rem;
    width: 20rem;
    object-fit: fill;
-   border-radius: 2rem;
+   border-radius: .5rem;
 }
 
 .anime-details .row image .ratings{
@@ -1131,6 +1131,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
