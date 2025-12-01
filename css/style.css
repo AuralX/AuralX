@@ -13,6 +13,7 @@
    --light-white:#aaa;
    --blue:#007aff;
    --Capri:#00bbff;
+   --red:#ff0000;
 }
 
 *{
@@ -292,17 +293,17 @@ section{
 
 .hero .slide .content span{
    font-size: 2rem;
-   color:var(--main-color);
+   color:var(--red);
    text-transform: uppercase;
 }
 
 .hero .slide .content h3{
-   /*margin-top: .5rem;
+   margin-top: .5rem;
    margin-bottom: 1.5rem;
-   font-size: clamp(2rem, 5rem, 7rem);*/
+   font-size: clamp(2rem, 5rem, 7rem);
    line-height: 1.2;
    max-width: 50rem;
-   color: var(--white);
+   color: var(--bg-color);
 }
 
 .hero .slide .content .flex{
@@ -1126,11 +1127,13 @@ input[type="range"]{
    }
 
    .hero .slide .content h3{
-      font-size: 3rem;
+      font-style: oblique;
+      font-size: 2.5rem;
    }
 
 
 }
+
 
 
 
