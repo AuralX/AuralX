@@ -714,7 +714,7 @@ section{
 
 .anime-details .row .content .genere{
    display: flex;
-   flex-wrap: wrap;
+   justify-content: center;
    gap: 1rem;
 }
 
@@ -1157,6 +1157,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
