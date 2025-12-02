@@ -650,17 +650,20 @@ section{
 }
 
 .anime-details .row .image .ratings p{
-   font-size: 1.2rem;
+   letter-spacing: 1.5px;
    color: var(--white);
    margin-bottom: .5rem;
+   margin-left: 4rem;
 }
 
 .anime-details .row .ratings p span{
+   margin-left: .5rem;
+   font-size: 1.8rem;
    color: var(--main-color);
 }
 
 .anime-details .row .image .ratings i{
-   font-size: 1.8rem;
+   letter-spacing: 3px;
    color: yellow;
 }
 
@@ -1154,6 +1157,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
