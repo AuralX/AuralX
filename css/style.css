@@ -680,6 +680,7 @@ section{
 }
 
 .anime-details .row .content .title{
+   text-align: center;
    font-size: 2.2rem;
    color: var(--white);
 }
@@ -1152,6 +1153,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
