@@ -50,7 +50,7 @@ body{
 }
 
 section{
-   padding: 1rem;
+   padding: 1.4rem;
    margin: 0 auto;
    max-width: 1200px;
 }
@@ -1152,6 +1152,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
