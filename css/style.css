@@ -738,11 +738,21 @@ body { margin:0; background:#070606; color:#fff; font-family: sans-serif; paddin
   background-color: #070606a1; border-radius: .5rem; padding: 13px; font-size: 14px; border-block: 1px solid #222; cursor:pointer;
 }
 .chapter::after {
-  margin-left: 24rem;
-  content: "▶";
-  font-size: 18px;
-  color: #00ff99;
-  transition: 0.3s ease;
+  width: 35px;
+ height: 35px;
+ border-radius: 50%;
+ display: inline-grid;
+ place-items: center;
+ background: #070606;
+ border: 2px solid #aaaaaa;
+ box-shadow: 0 0 0 6px #00000000;
+ cursor: pointer;
+ -webkit-tap-highlight-color: transparent;
+ transition: transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+ margin-left: 22rem;
+ content: "▶";
+ font-size: 16px;
+ color: rgb(255 255 255);
 }
 .chapter.active{ background:#222; }
 
@@ -1157,6 +1167,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
