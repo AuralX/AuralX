@@ -1143,16 +1143,18 @@ input[type="range"]{
    }
 
    .hero .slide::before{
-      background: rgba(0,0,0,.7);
+      /*background: rgba(0,0,0,.7);*/
    }
 
    .hero .slide .content h3{
-      font-style: oblique;
-      font-size: 2.5rem;
+      font-weight: 405;
+      font-size: 2rem;
+      letter-spacing: 1px;
    }
 
 
 }
+
 
 
 
