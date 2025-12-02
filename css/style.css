@@ -105,6 +105,24 @@ section{
    cursor: pointer;
 }
 
+.logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fm {
+    position: absolute;
+    top: -10px;       /* ↑ FM ko upar le jata hai */
+    right: -18px;     /* → right corner me shift */
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.7;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 .header .flex .logo{
    margin-right: auto;
 }
@@ -1133,6 +1151,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
