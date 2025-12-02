@@ -435,7 +435,7 @@ section{
 .posts-container .post .image img{
    height: 100%;
    width: 100%;
-   object-fit: cover;
+   object-fit: fill;
 }
 
 .posts-container .post .image::before{
@@ -1154,6 +1154,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
