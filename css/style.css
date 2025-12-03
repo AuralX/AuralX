@@ -291,6 +291,39 @@ section{
    column-gap: 2rem;
 }
 
+.hero .slide {
+  position: relative;
+  width: 100%;
+  height: 45vh;
+  overflow: hidden;
+}
+
+.hero .slide img {
+   border-radius: 2rem;
+   padding: 1.4rem;
+   width: 100%;
+   height: 100%;
+   object-fit: fill; /* ya contain agar crop nahi chahiye */
+   object-position: center;
+}
+
+
+
+
+.hero .slide .content {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    z-index: 10;
+}
+/*
+.hero .slide::before {
+    z-index: 1;
+}*/
+
+
+
+/*
 .hero .slide{
    position: relative;
    z-index: 0;
@@ -304,12 +337,13 @@ section{
    z-index: -1;
 }
 
+
 .hero .slide .content{
    min-height: 45vh; 
    display: flex;
    align-items: end;
 }
-
+*/
 .hero .slide .content span{
    font-size: 2rem;
    color:var(--red);
@@ -1175,38 +1209,6 @@ input[type="range"]{
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
