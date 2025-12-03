@@ -299,8 +299,8 @@ section{
 }
 
 .hero .slide img {
-   border-radius: 2rem;
-   padding: 1.4rem;
+   /*border-radius: 2rem;
+   padding: 1.4rem;*/
    width: 100%;
    height: 100%;
    object-fit: fill; /* ya contain agar crop nahi chahiye */
@@ -1209,6 +1209,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
