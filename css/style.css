@@ -769,6 +769,7 @@ body { margin:0; background:#070606; color:#fff; font-family: sans-serif; paddin
 
 /* Chapter List */
 .chapter{
+  color: #00ff99;
   display: flex;
   background-color: #070606a1;
   border-radius: .5rem;
@@ -824,6 +825,7 @@ input[type="range"]{
 .speed-btn{ text-align:center; margin-top:6px; color:#00bbff; cursor:pointer; font-size:10px; }
 
 .drops{
+   color: #ffdd95;
    margin: 1rem 0;
    padding: 1.5rem 2rem;
    border-radius: .5rem;
@@ -1209,6 +1211,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
