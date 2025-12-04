@@ -313,7 +313,7 @@ section{
 .hero .slide .content {
     position: absolute;
     bottom: 2rem;
-    left: 2rem;
+   /* left: 2rem;*/
     z-index: 10;
 }
 /*
@@ -1211,6 +1211,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
