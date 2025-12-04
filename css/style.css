@@ -782,7 +782,7 @@ body { margin:0; background:#070606; color:#fff; font-family: sans-serif; paddin
 }
 
 .chapter::after {
-  width: 40px;
+  width: 35px;
  height: 35px;
  border-radius: 50%;
  display: inline-grid;
@@ -1211,6 +1211,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
