@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Home</title>
+
+    <!--  swiper css cdn link  -->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css"/>
+
+    <!--  custom css file  -->
+    <link rel="stylesheet" href="../css/style.css">
+     
+</head>
+<body>
+    
+<!--  header section starts  -->
+
+<header class="header">
+
+    <section class="flex">
+
+        <div class="logo">
+           <span class="fm">Fm</span>
+           <div id="menu-btn" class="fas fa-bars-staggered"></div>
+           <a href="../index.html">AuralX</a>
+        </div>
+
+        <div class="search-form">
+           <form action="" class="search-bar">
+              <input type="search" placeholder="search anime..." id="searchBox" maxlength="100">
+              <label for="searchBox" class="fas fa-search"></label>
+           </form>
+           <a href="../filter.html" class="fas fa-filter"></a>
+        </div>
+                
+        <a href="../login.html" class="btn"><i class="fas fa-user"></i>login</a>
+
+        <div id="search-toggler" class="fas fa-search"></div>
+     
+    </section>
+
+</header>
+
+<!--  header section ends  -->
+
+<div class="side-bar">
+
+    <nav class="navbar">
+
+        <div id="close-btn"><i class="fas fa-angle-left"></i>close menu</div>
+
+        <a href="../index.html">🏠 home</a>
+        <a href="../all series/hot series/page-1.html">♨️ hot Series</a>
+        <a href="../all series/most popular/page-1.html">⚡ most popular</a>
+
+        <div class="title">all Series</div>
+
+        <div class="column">
+            <a href="../all series/adult/page-1.html">adult</a>
+            <a href="../all series/adultery/page-1.html">adultery</a>
+            <a href="../all series/erotic/page-1.html">erotic</a>
+            <a href="../all series/incest/page-1.html">incest</a>
+            <a href="../all series/lust/page-1.html">lust</a>
+            <a href="../all series/romance/page-1.html">romance</a>
+        </div>
+    </nav>
+</div>
+
+<!-- latest section 10 post only starts -->
+
+<section class="latest">
+
+    <h1 class="heading">latest release</h1>
+
+    <div class="posts-container">
+
+        <div class="post">
+            <a href="audiobooks/34.html">
+                <div class="image">
+                    <img src="images/img-34.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.3</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/34.html">भ्रष्ट अधिकारी की बेटी का बलात्कार</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>19k Plays</span>
+                <span><i class="fas fa-bookmark"></i>907</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/33.html">
+                <div class="image">
+                    <img src="images/img-33.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.5</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/33.html">मेरी कॉलेज गर्लफ्रेंड</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>15k Plays</span>
+                <span><i class="fas fa-bookmark"></i>975</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/32.html">
+                <div class="image">
+                    <img src="images/img-32.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.1</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/32.html">मेरी गर्लफ्रेंड की सहपाठी मेरे साथ सोई</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>13k Plays</span>
+                <span><i class="fas fa-bookmark"></i>647</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/31.html">
+                <div class="image">
+                    <img src="images/img-31.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.5</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/31.html">मेरी धर्म-बहन का पहली बार</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>16k Plays</span>
+                <span><i class="fas fa-bookmark"></i>737</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/30.html">
+                <div class="image">
+                    <img src="images/img-30.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.3</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/30.html">मेरी पत्नी की खूबसूरत छोटी बहन</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>14k Plays</span>
+                <span><i class="fas fa-bookmark"></i>677</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/29.html">
+                <div class="image">
+                    <img src="images/img-29.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>3.7</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/29.html">मेरी फूहड़ कक्षा मॉनिटर</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>8k Plays</span>
+                <span><i class="fas fa-bookmark"></i>497</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/28.html">
+                <div class="image">
+                    <img src="images/img-28.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.3</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/28.html">मैं इस आग्रह का विरोध नहीं कर सकता</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>9k Plays</span>
+                <span><i class="fas fa-bookmark"></i>642</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/27.html">
+                <div class="image">
+                    <img src="images/img-27.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.5</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/27.html">मैं और मेरी कामुक बहन</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>16k Plays</span>
+                <span><i class="fas fa-bookmark"></i>685</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/26.html">
+                <div class="image">
+                    <img src="images/img-26.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.1</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/26.html">परिपक्व और आकर्षक माँ</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>8k Plays</span>
+                <span><i class="fas fa-bookmark"></i>564</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/25.html">
+                <div class="image">
+                    <img src="images/img-25.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.5</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/25.html">दोनों बहनें यही चाहती हैं</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>19k Plays</span>
+                <span><i class="fas fa-bookmark"></i>955</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/24.html">
+                <div class="image">
+                    <img src="images/img-24.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>4.4</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/24.html">मेरी भाभी आधी रात को मेरी खुशबू चुरा लेती है</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>13k Plays</span>
+                <span><i class="fas fa-bookmark"></i>648</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/23.html">
+                <div class="image">
+                    <img src="images/img-23.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i>3.9</p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/23.html">मैंने अपने मकान मालिक के साथ बलात्कार किया</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>6k Plays</span>
+                <span><i class="fas fa-bookmark"></i>240</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/22.html">
+                <div class="image">
+                    <img src="images/img-22.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i><span>4.3</span></p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/22.html">पारदर्शी कपड़ों में यात्रा करना</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>16k Plays</span>
+                <span><i class="fas fa-bookmark"></i>759</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <a href="audiobooks/21.html">
+                <div class="image">
+                    <img src="images/img-21.jpg" alt="">
+                    <p class="type">𝟙𝟠₊</p>
+                    <p class="caption"><i class="fas fa-star-half-alt"></i><span>4.1</span></p>
+                </div>
+            </a>
+            <h3><a href="audiobooks/21.html">लॉकर रूम छोटी फूहड़</a></h3>
+            <div class="info">
+                <span><i class="fas fa-play"></i>11k Plays</span>
+                <span><i class="fas fa-bookmark"></i>560</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="button">
+           <a href="#" class="btn"> { 1 } </a> <a href="../pages/page=2.html" class="btn"> >>> </a>
+    </div>
+
+</section>
+
+<!-- latest section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts -->
+
+<footer class="footer">
+    
+   <section>
+
+        <div class="list">
+            <h3>A-Z list</h3>
+            <p>searching order by alphabet name A to Z</p>
+            <div class="list-links">
+                <a href="#">#</a>
+                <a href="#">0-9</a>
+                <a href="#">a</a>
+                <a href="#">b</a>
+                <a href="#">c</a>
+                <a href="#">d</a>
+                <a href="#">e</a>
+                <a href="#">f</a>
+                <a href="#">g</a>
+                <a href="#">h</a>
+                <a href="#">i</a>
+                <a href="#">j</a>
+                <a href="#">k</a>
+                <a href="#">l</a>
+                <a href="#">m</a>
+                <a href="#">n</a>
+                <a href="#">o</a>
+                <a href="#">p</a>
+                <a href="#">q</a>
+                <a href="#">r</a>
+                <a href="#">s</a>
+                <a href="#">t</a>
+                <a href="#">u</a>
+                <a href="#">v</a>
+                <a href="#">w</a>
+                <a href="#">x</a>
+                <a href="#">y</a>
+                <a href="#">z</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="extra-links">
+                <a href="#">terms of use</a>
+                <a href="#">our policy</a>
+                <a href="#">feedback</a>
+                <a href="#">contact us</a>
+            </div>
+            <div class="share">
+                <a href="#" class="fab fa-youtube"></a>
+                <a href="#" class="fab fa-whatsapp"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>       
+
+        <div class="credit">copyright &copy; 2025 by <span>AuralX</span> | all rights reserved!</div>
+
+   </section>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+
+
+
+<!-- swiper js cdn link -->
+<script src="../js/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="../js/script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
