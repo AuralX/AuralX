@@ -812,7 +812,7 @@ body { margin:0; background:#070606; color:#fff; font-family: sans-serif; paddin
 
 .controls{ display:flex; justify-content:center; align-items:center; gap:18px; margin:8px 0; }
 .controls button{
-  background:none; border:none; color:#ffffff75;
+  background:none; border:none; color:#ffdd95b0;
    cursor:pointer;
 }
 
@@ -1211,6 +1211,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
