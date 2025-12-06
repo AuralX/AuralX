@@ -866,6 +866,8 @@ input[type="range"]{
 
 /* Default arrow hide */
 .description-box summary {
+   color: white;
+   font-size: 1.8rem;
    list-style: none;
    cursor: pointer;
 }
@@ -1121,6 +1123,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
