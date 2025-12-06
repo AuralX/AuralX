@@ -1151,10 +1151,10 @@ input[type="range"]{
 }
 
 @media (max-width:991px){
-
+/*
   #search-toggler{
      display: inline-block;
-   }
+   }*/
 
    .header .flex .search-form{
      position: absolute;
@@ -1215,6 +1215,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
