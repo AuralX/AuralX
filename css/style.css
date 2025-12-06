@@ -837,6 +837,7 @@ input[type="range"]{
 }
 
 .drops p{
+   margin-block: 1rem;
    font-size: 1.7rem;
    color: var(--white);
 }
@@ -886,6 +887,9 @@ input[type="range"]{
 /* Open state (⮯) */
 .description-box[open] summary::after {
    content: "⮯ ";
+   padding: .2rem;
+   margin-top: 2rem;
+   font-size: 18px;
 }
 
 .account form{
@@ -1123,6 +1127,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
