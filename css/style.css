@@ -349,9 +349,10 @@ section{
 }
 */
 .hero .slide .content span{
-   font-size: 2rem;
+   font-weight: 500;
+   font-size: 1.5rem;
    color:var(--red);
-   text-transform: uppercase;
+   /*text-transform: uppercase;*/
 }
 
 .hero .slide .content h3{
@@ -1119,13 +1120,18 @@ input[type="range"]{
    }
 
    .hero .slide .content h3{
+      padding: .5rem 1rem;
+      border-radius: 1rem;
+      background-color: #ffdd95a3;
+      border: .1rem solid rgb(8 7 7 / 21%);
       font-weight: 405;
-      font-size: 2rem;
-      letter-spacing: 1px;
+      font-size: 1.8rem;
+     /* letter-spacing: 1px;*/
    }
 
 
 }
+
 
 
 
