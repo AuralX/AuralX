@@ -884,11 +884,10 @@ input[type="range"]{
    font-size: 16px;
 }
 
-/* Open state (⮯) */
-.description-box[open] summary::after {
-   content: "⮯ ";
+/* Open state (➦) */
+.description-box[open] summary::before {
+   content: "➦ ";
    padding: .2rem;
-   margin-top: 2rem;
    font-size: 18px;
 }
 
@@ -1127,6 +1126,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
