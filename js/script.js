@@ -56,14 +56,19 @@ list_items.forEach(items =>{
 
 var swiper = new Swiper(".hero-slider", {
 
-    loop:true,
+   loop:true,
     grabCursor:true,
 
     pagination: {
-        el: ".swiper-pagination",
-        clickable:true,
-        dynamicBullets:true,
-    },
+      el: '.swiper-pagination',
+      clickable: true,
+      dynamicBullets:true,
+   },
+
+    autoplay :{
+        delay:2000,
+        disableOnInteraction:false,
+    }
 });
 
 var swiper = new Swiper(".trending-slider", {
@@ -78,3 +83,4 @@ var swiper = new Swiper(".trending-slider", {
         disableOnInteraction:false,
     }
 });
+
