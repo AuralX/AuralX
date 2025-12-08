@@ -545,7 +545,7 @@ section{
    margin-top: 3rem;
    padding-block-end: 1.5rem;
    text-align: center;
-   border-bottom: .1rem solid rgba(255, 255, 255, .2);
+   border-bottom: .1rem solid #00ff9999;
 }
 
 .filter form{
@@ -1131,6 +1131,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
