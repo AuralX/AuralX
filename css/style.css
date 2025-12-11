@@ -457,7 +457,7 @@ section{
    grid-template-columns: repeat(auto-fit, 20rem);
    gap: 2rem;
    align-items: flex-start;
-   justify-content: center;
+   justify-content: space-around;
 }
 
 .posts-container .post{
@@ -1131,6 +1131,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
