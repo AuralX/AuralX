@@ -65,10 +65,10 @@ var swiper = new Swiper(".hero-slider", {
       dynamicBullets:true,
    },
 
-    autoplay :{
+   /* autoplay :{
         delay:2000,
         disableOnInteraction:false,
-    }
+    }*/
 });
 
 var swiper = new Swiper(".trending-slider", {
@@ -83,5 +83,6 @@ var swiper = new Swiper(".trending-slider", {
         disableOnInteraction:false,
     }
 });
+
 
 
