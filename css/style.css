@@ -770,7 +770,7 @@ section{
    color: var(--black);
 }
 
-body { margin:0; background:#070606; color:#fff; font-family: sans-serif; padding-bottom:110px; }
+body { margin:0; background:#1a1a1a; color:#fff; font-family: sans-serif; padding-bottom:110px; }
 
 /* Chapter List */
 .chapter{
@@ -1131,6 +1131,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
