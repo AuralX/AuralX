@@ -365,7 +365,7 @@ section{
    font-size: clamp(2rem, 5rem, 7rem);
    line-height: 1.2;
    max-width: 50rem;
-   color: #ffffff
+   color: #00ff99;
 }
 
 .hero .slide .content .flex{
@@ -1135,6 +1135,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
