@@ -353,6 +353,10 @@ section{
    font-size: 1.5rem;
    color:var(--red);
    /*text-transform: uppercase;*/
+   padding: .2rem .3rem;
+   border-radius: .5rem;
+   background-color: rgb(255 255 255);
+   border: .1rem solid #000000;
 }
 
 .hero .slide .content h3{
@@ -1131,6 +1135,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
