@@ -361,7 +361,7 @@ section{
    font-size: clamp(2rem, 5rem, 7rem);
    line-height: 1.2;
    max-width: 50rem;
-   color: var(--bg-color);
+   color: #ffffff
 }
 
 .hero .slide .content .flex{
@@ -1122,8 +1122,8 @@ input[type="range"]{
    .hero .slide .content h3{
       padding: .5rem 1rem;
       border-radius: 1rem;
-      background-color: #ffdd95a3;
-      border: .1rem solid rgb(8 7 7 / 21%);
+      background-color: #000000e0;
+      border: .1rem solid #00bbff;
       font-weight: 405;
       font-size: 1.8rem;
      /* letter-spacing: 1px;*/
@@ -1131,6 +1131,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
