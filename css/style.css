@@ -1116,7 +1116,7 @@ input[type="range"]{
 @media (max-width:450px){
 
    html{
-       font-size: 51%;
+       font-size: 50%;
    }
 
    .hero .slide::before{
@@ -1135,6 +1135,7 @@ input[type="range"]{
 
 
 }
+
 
 
 
