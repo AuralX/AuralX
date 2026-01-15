@@ -3,14 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Anime Details</title>
+    <title>Story Details</title>
 
     <!--  custom css file  -->
     <link rel="stylesheet" href="../css/style.css">
 
-
-
-     
 </head>
 <body>
     
@@ -23,18 +20,10 @@
         <div class="logo">
            <span class="fm">Fm</span>
            <div id="menu-btn" class="fas fa-bars-staggered"></div>
-           <a href="../index.html">AuralX</a>
+           <a href="../">AuralX</a>
         </div>
 
-        <div class="search-form">
-           <form action="" class="search-bar">
-              <input type="search" placeholder="search anime..." id="searchBox" maxlength="100">
-              <label for="searchBox" class="fas fa-search"></label>
-           </form>
-           <a href="../filter.html" class="fas fa-filter"></a>
-        </div>
-                
-        <a href="../login.html" class="btn"><i class="fas fa-user"></i>login</a>
+        <a href="../login" class="hbtn"><i class="fas fa-user"></i></a>
 
         <div id="search-toggler" class="fas fa-search"></div>
      
@@ -50,19 +39,19 @@
 
         <div id="close-btn"><i class="fas fa-angle-left"></i>close menu</div>
 
-        <a href="../index.html">🏠 home</a>
-        <a href="../all series/hot series/page-1.html">♨️ hot series</a>
-        <a href="../all series/most popular/page-1.html">⚡ most popular</a>
+        <a href="../">🏠 home</a>
+        <a href="../all series/hot series/page=1">♨️ hot series</a>
+        <a href="../all series/most popular/page=1">⚡ most popular</a>
 
         <div class="title">all Series</div>
 
         <div class="column">
-            <a href="../all series/adult/page-1.html">adult</a>
-            <a href="../all series/adultery/page-1.html">adultery</a>
-            <a href="../all series/erotic/page-1.html">erotic</a>
-            <a href="../all series/incest/page-1.html">incest</a>
-            <a href="../all series/lust/page-1.html">lust</a>
-            <a href="../all series/romance/page-1.html">romance</a>
+            <a href="../all series/adult/page=1">adult</a>
+            <a href="../all series/adultery/page=1">adultery</a>
+            <a href="../all series/erotic/page=1">erotic</a>
+            <a href="../all series/incest/page=1">incest</a>
+            <a href="../all series/lust/page=1">lust</a>
+            <a href="../all series/romance/page=1">romance</a>
         </div>
 
     </nav>
@@ -93,8 +82,8 @@
             <h3 class="title">अपनी बहन को गर्भवती करो...</h3>
             
             <div class="genere">
-                <a href="../all series/adult/page-1.html">adult</a>
-                <a href="../all series/incest/page-1.html">incest</a>
+                <a href="../all series/adult/page=1">adult</a>
+                <a href="../all series/incest/page=1">incest</a>
             </div>
         </div>
     </div>
@@ -119,9 +108,16 @@
            
             <!-- Floating Player -->
             <div id="playerBar">
+                <section class="player-details">
+                    <div class="row">
+                        <div class="image">
+                            <img src="../images/img-1.jpg" alt="">
+                        </div>
+                    </div>
+                </section>
+                
             <div class="player-top">
                 <span id="epInfo">Episode 1 / 3</span>
-
             </div>
 
             <input type="range" id="seekBar" value="0">
@@ -133,9 +129,9 @@
 
             <div class="controls">
                 <button id="prevBtn">⏮</button>
-                <button id="rew10">↺ 10</button>
+                <button id="rew10">↺</button>
                 <button id="playPause">▶︎</button>
-                <button id="fwd10">10 ↻</button>
+                <button id="fwd10">↻</button>
                 <button id="nextBtn">⏭</button>
             </div>
 
@@ -172,7 +168,7 @@
  <script src="../js/player.js"></script>
  </body>
 
- </html>
+</html>
 
 
 
